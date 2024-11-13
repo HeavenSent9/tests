@@ -51,7 +51,9 @@ print(lang)
 lang = ",".join(lang)
 print(lang)
 
-my_text = "First {} or Second {}"
+my_text = "First {0} or Second {1}"
 first_num = "1"
 second_num = "2"
 print(my_text.format(first_num, second_num))
+my_text = f"First {first_num} and Second {second_num}"
+print(my_text)
